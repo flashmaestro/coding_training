@@ -12,6 +12,7 @@ Hello, Jake, nice to meet you!
 """
 
 name = input("What is your name? ")
-print("Hello,", name, ", nice to meet you!")
+msg = "Hello, " + name + ", nice to meet you!"
+print(msg)
 
 # format string
